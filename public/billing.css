@@ -1,0 +1,30 @@
+.content{
+    background-color: #4b6584 ;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.total-box{
+    width: 200px;
+    height: 150px;
+    background-color: #a5b1c2;
+    border:2px solid red;
+    border-radius: 10px;
+}
+.bill_ar{
+    background-color:#b71540 ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.bill_area{
+    background-color: #3c6382;
+    border-radius: 10px;
+    padding:10px;
+}
+/* media queries */ 
+ @media only screen and (max-width: 600px) { 
+  .content{
+      margin:10px 10px  ;
+  }
+}

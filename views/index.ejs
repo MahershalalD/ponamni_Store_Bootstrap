@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wricks Designs</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstarp cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Fondamento&family=Lilita+One&display=swap"
+            rel="stylesheet">
+            <!-- fontawesome -->
+            <script src="https://kit.fontawesome.com/2cf437a4a5.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/"><strong>பொன்மணி_மளிகை</strong></a>
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white !important;"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/kadan">கடன் விவரங்கள்</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parrupu">புதியனவற்றை சேர்</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECTION -->
+    <section id="cards">
+        <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="பருப்பு வகைகள்" style="margin: 20px;">
+                                பருப்பு வகைகள்</button> 
+                        </form>
+                    </div>
+                    <div >
+                        <img class="main_div_img" src="parrupu_main.png">
+                    </div>
+                    <div class="main_div-body">
+                    <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                    <p style="margin:auto 20px ;"><%= par %></p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="அரிசி வகைகள்" style="margin: 20px;">
+                                அரிசி வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="arisi_main.jpg">
+                    </div>
+                    <div class="main_div-body">
+                    <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                    <p style="margin:auto 20px ;"><%= ari %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="காய்கறி வகைகள்" style="margin: 20px;">
+                                காய்கறி வகைகள்,முட்டை</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="kaikari_main.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= veg %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="எண்ணெய் வகைகள்" style="margin: 20px;">
+                                எண்ணெய் வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="oil_main.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= oill %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="மாட்டு தீவனம் வகைகள்" style="margin: 20px;">
+                                மாட்டு தீவனம் வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="cowfeed_main.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= coww %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="பத்தி & உப்பு வகைகள்" style="margin: 20px;">
+                            பத்தி & உப்பு வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="oothupathi_main.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= san %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="இனங்கள் வகைகள்" style="margin: 20px;">
+                                இனங்கள் வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="spices.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= spi %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="மசாலா வகைகள்" style="margin: 20px;">
+                                மசாலா வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="masal.jpeg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= mas %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="main_div">
+                    <div class="main_div_head">
+                        <form action="/par" method="POST">
+                            <button class="btn btn-dark btn-large btn-outline" name="product_name" value="துணைக்கருவிகள் வகைகள்" style="margin: 20px;">
+                                துணைக்கருவிகள் வகைகள்</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="main_div_img" src="house.jpg">
+                    </div>
+                    <div class="main_div-body">
+                        <h5 style="margin:auto 20px ;">மொத்தம்</h5>
+                        <p style="margin:auto 20px ;"><%= acc %></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>

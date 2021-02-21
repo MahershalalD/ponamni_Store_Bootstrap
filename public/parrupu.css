@@ -1,0 +1,90 @@
+.navbar{
+    background-color: #2f3542;
+    
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+     color: white !important;
+}
+.insert-new{
+    margin:  50px auto;
+}
+
+.par_main{
+    width: 0px;
+    height: 100%;
+    background-color: tomato;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.par_name{
+    margin : auto 20px;
+}
+.par_name h6{
+     font-size: 22px;
+     color: white;
+     padding: 10px  2px 10px 2px;
+     font-weight: bolder;
+}
+.par_name p{
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+}
+.amt_table{
+   padding-right: 50px;
+}
+.par_main button{
+    margin:  auto 10px;
+}
+
+.par_rate_update{
+    height: 100%;
+    width: 300px;
+    background-color: #778ca3;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rate_update{
+    width: 80px;
+    border-radius: 5px;
+    border:1px solid red;
+    
+}
+.rate_update:focus{
+    outline: none;
+}
+.last_up{
+    font-size: 12px;
+    padding:  10px 2px 2px 10px  ;
+    margin:10px auto ;
+    opacity: 70%;
+    color: white;
+}
+.pro_rate_card{
+    margin:10px 10px ;
+    height: 100%;
+    width: 250px;
+    background-color: #fa8231;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Alining{
+    margin: 30px 30px;
+}
+
+
+/* media queries */ 
+ @media only screen and (max-width: 600px) {
+     
+  .col-lg-3{
+      margin:10px auto ;
+  }
+}
